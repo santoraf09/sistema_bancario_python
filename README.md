@@ -15,4 +15,16 @@ Este é um sistema bancário simples em Python que permite aos usuários realiza
 
 1. Clone este repositório para sua máquina local:
    ```sh
-   git clone https://github.com/seu-usuario/sistema-bancario-simples.git
+   git clone https://github.com/santoraf09/sistema-bancario-simples.git
+
+## Estrutura do Código
+
+- **exibir_menu()**: Exibe o menu principal do sistema.
+- **depositar(saldo, valor, extrato)**: Realiza a operação de depósito.
+- **sacar(saldo, valor, extrato, limite, numero_saques, limite_saques)**: Realiza a operação de saque.
+- **exibir_extrato(saldo, extrato)**: Exibe o extrato da conta.
+- **criar_usuario(usuarios)**: Cria um novo usuário.
+- **filtrar_usuario(cpf, usuarios)**: Filtra um usuário pelo CPF.
+- **criar_conta(agencia, numero_conta, usuarios)**: Cria uma nova conta para um usuário existente.
+- **listar_contas(contas)**: Lista todas as contas criadas.
+- **main()**: Função principal que controla o fluxo do sistema.
